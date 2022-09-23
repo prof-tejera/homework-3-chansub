@@ -1,0 +1,34 @@
+.pagesList {
+    list-style: none;
+}
+.pagesList li{
+    display:inline;
+    margin-right: 30px;
+   
+}
+.pagesList .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.pagesList .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+.pagesList .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+.pagesList  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+.pagesList   .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
