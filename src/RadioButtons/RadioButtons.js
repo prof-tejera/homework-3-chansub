@@ -6,17 +6,17 @@ const RadioButtons = (props) => {
   return (
     <Panel>
       <p>I want to be part of: </p>
-      <div class="radio">
-        <Input id="red" name="team" type="radio" checked/>
-        <label for="red" class="radio-label">Red team</label>
+      <div>
+        <Input id="red" name="team" type="radio"/>
+        <label htmlFor="red">Red team</label>
       </div>
-      <div class="radio">
+      <div>
         <Input id="blue" name="team" type="radio"/>
-        <label for="blue" class="radio-label">Blue team</label>
+        <label htmlFor="blue">Blue team</label>
       </div>
-      <div class="radio">
+      <div>
         <Input id="any" name="team" type="radio"/>
-        <label for="any" class="radio-label">Choose for me</label>
+        <label htmlFor="any">Choose for me</label>
       </div>
     </Panel>
   );
