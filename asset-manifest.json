@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-3-chansub/static/css/main.4e7af715.css",
+    "main.js": "/homework-3-chansub/static/js/main.7b3e116e.js",
+    "index.html": "/homework-3-chansub/index.html",
+    "main.4e7af715.css.map": "/homework-3-chansub/static/css/main.4e7af715.css.map",
+    "main.7b3e116e.js.map": "/homework-3-chansub/static/js/main.7b3e116e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7af715.css",
+    "static/js/main.7b3e116e.js"
+  ]
+}
